@@ -9,8 +9,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="techkids.mad3.animationcartoon.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <ImageView
+        android:id="@+id/imgDisplayFrame"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_below="@id/imgDisplayFrame"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="Start"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_below="@id/imgDisplayFrame"
+        android:layout_toRightOf="@id/btnStart"
+        android:layout_marginLeft="60dp"
+        android:text="Stop"
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
