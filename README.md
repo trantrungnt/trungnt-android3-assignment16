@@ -1,6 +1,10 @@
-# trungnt-android3-assignment16
+﻿# trungnt-android3-assignment16
 ##Yêu cầu
 + Dùng Drawable Animation để làm hiệu ứng cho 1 loạt ảnh hiển thị trên ImageView
+
+##Môi trường phát triển
++ Bộ công cụ Android Studio 2.1
++ Máy ảo Genymotion dùng api min 17 và api max 23
 
 ##Tham khảo
 + [Drawable Amination](https://developer.android.com/guide/topics/graphics/drawable-animation.html)
