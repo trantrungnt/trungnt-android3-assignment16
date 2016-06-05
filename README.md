@@ -12,5 +12,6 @@
 + [Android Drawables aminations](http://www.vogella.com/tutorials/AndroidDrawables/article.html)
 + [Graphic and Animation](https://developer.xamarin.com/guides/android/application_fundamentals/graphics_and_animation/)
 + [Create Frame Amination](http://stacktips.com/tutorials/android/creating-frame-animations-in-android)
-+ [Nguồn ảnh Animation](http://www.line-stickers.com/doraemon-animated-stickers/) 
++ [Nguồn ảnh Animation Doraemon](http://www.line-stickers.com/doraemon-animated-stickers/) 
++ [Nguồn ảnh Animation Pokemon](http://www.line-stickers.com/pokemon/)
 
