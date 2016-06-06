@@ -24,8 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         imgDisplayFrame = (ImageView) this.findViewById(R.id.imgDisplayFrame);
         imgDisplayFrame.setBackgroundResource(R.drawable.frame_animation_list);
         frameAnimation = (AnimationDrawable) imgDisplayFrame.getBackground();
-        //set true if you want to animate only once
-        frameAnimation.setOneShot(true);
+        frameAnimation.setVisible(true, true);
 
         btnStart = (Button) this.findViewById(R.id.btnStart);
         btnStop = (Button) this.findViewById(R.id.btnStop);
