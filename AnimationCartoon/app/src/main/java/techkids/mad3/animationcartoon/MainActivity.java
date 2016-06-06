@@ -1,5 +1,6 @@
 package techkids.mad3.animationcartoon;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private Button btnStart, btnStop;
     private ImageView imgDisplayFrame;
+    private AnimationDrawable frameAnimation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initComponent()
     {
         imgDisplayFrame = (ImageView) this.findViewById(R.id.imgDisplayFrame);
+        imgDisplayFrame.setBackgroundResource(R.drawable.frame_animation_list);
+        frameAnimation = (AnimationDrawable) imgDisplayFrame.getBackground();
+        //set true if you want to animate only once
+        frameAnimation.setOneShot(true);
 
         btnStart = (Button) this.findViewById(R.id.btnStart);
         btnStop = (Button) this.findViewById(R.id.btnStop);
@@ -28,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnStop.setOnClickListener(this);
     }
 
+
     @Override
     public void onClick(View v) {
         int id = v.getId();
@@ -35,8 +42,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (id)
         {
             case R.id.btnStart:
+                frameAnimation.start();
+
                 break;
             case R.id.btnStop:
+                frameAnimation.stop();
                 break;
         }
     }
