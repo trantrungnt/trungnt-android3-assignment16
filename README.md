@@ -18,4 +18,4 @@
 + [Create Frame Amination](http://stacktips.com/tutorials/android/creating-frame-animations-in-android)
 + [Nguồn ảnh Animation Doraemon](http://www.line-stickers.com/doraemon-animated-stickers/) 
 + [Nguồn ảnh Animation Pokemon](http://www.line-stickers.com/pokemon/)
-
++  [1 vài chú ý với Frame Animations](http://www.morethantechnical.com/2011/02/07/some-things-i-learned-about-androids-frame-animation/)
