@@ -2,6 +2,10 @@
 ##Yêu cầu
 + Dùng Drawable Animation để làm hiệu ứng cho 1 loạt ảnh hiển thị trên ImageView
 
+##Demo Chương trình
++ [Xem tại đây](https://youtu.be/c9g9-dFg1to)
+
+
 ##Môi trường phát triển
 + Bộ công cụ Android Studio 2.1
 + Máy ảo Genymotion dùng api min 17 và api max 23
