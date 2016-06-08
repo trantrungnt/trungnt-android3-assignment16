@@ -19,3 +19,4 @@
 + [Nguồn ảnh Animation Doraemon](http://www.line-stickers.com/doraemon-animated-stickers/) 
 + [Nguồn ảnh Animation Pokemon](http://www.line-stickers.com/pokemon/)
 +  [1 vài chú ý với Frame Animations](http://www.morethantechnical.com/2011/02/07/some-things-i-learned-about-androids-frame-animation/)
++  [Android UI Layouts animation mirror](https://www.codementor.io/android/tutorial/android-ui-layouts-animations-mirror)
